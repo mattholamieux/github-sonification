@@ -1,8 +1,18 @@
 {
-  "dependencies": {
-    "cheerio": "^1.0.0-rc.3",
-    "express": "^4.17.1",
-    "request": "^2.88.2",
-    "tone": "^14.7.58"
-  }
+    "name": "github-sonification",
+    "version": "1.0.0",
+    "description": "Data sonification of GitHub user contribution graphs",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "author": "Matt Nelson",
+    "license": "MIT",
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.3",
+        "express": "^4.17.1",
+        "request": "^2.88.2",
+        "tone": "^14.7.58"
+    }
 }
