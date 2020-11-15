@@ -1,0 +1,125 @@
+body {
+    background-color: #1b1d1e;
+}
+
+h1 {
+    font-size: 13px;
+    color: #ebedf0;
+    font-weight: 200;
+    margin-left: 5px;
+}
+
+#container {
+    margin: 20px;
+}
+
+#github-user-form {
+    margin: 5px 5px 15px 5px;
+}
+
+#github-username {
+    background-color: #ebedf0;
+    /* Green */
+    border: none;
+    color: #1b1d1e;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+#start-button {
+    background-color: #239a3b;
+    /* Green */
+    border: none;
+    color: #fff;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+#stop-button {
+    background-color: #196127;
+    /* Green */
+    border: none;
+    color: #fff;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+#contribution-graph {
+    height: 150px;
+    display: flex;
+    flex-flow: column wrap;
+    color: #fff;
+}
+
+#contribution-graph>div {
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+}
+
+.C1 {
+    background-color: #ebedf0;
+}
+
+.E1,
+.D1,
+.B1,
+.A1,
+.G1,
+.G1 {
+    background-color: #c6e48b;
+}
+
+.C2,
+.E2,
+.D2,
+.B2,
+.A2,
+.G2,
+.G2 {
+    background-color: #7bc96f;
+}
+
+.C3,
+.E3,
+.D3,
+.B3,
+.A3,
+.G3,
+.G3 {
+    background-color: #239a3b;
+    height: 40px;
+    margin: 6%;
+}
+
+.C4,
+.E4,
+.D4,
+.B4,
+.A4,
+.G4,
+.G4 {
+    background-color: #196127;
+}
+
+.C5,
+.E5,
+.D5,
+.B5,
+.A5,
+.G5,
+.G5,
+.C6 {
+    background-color: #0a2b11;
+}

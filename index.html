@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Sonification with GitHub</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.7.68/Tone.js" integrity="sha512-eBjUIAF/NN5kcGlFXz5n9UMAv+LKYFqtGnqHu83qQCXRJaL6iSsjFeOdft9AK9lD/9meTkj/5ctn6DGV5rz6Pg==" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div>
+            <h1 id="title">Data sonification of github user contribution graphs.</h1>
+        </div>
+        <form id="github-user-form">
+            <input type="text" id="github-username" placeholder="Enter GitHub username">
+            <input id="start-button" type="submit" value="Start">
+            <input id="stop-button" type="submit" value="Stop">
+        </form>
+        <div id="contribution-graph"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+
+</html>
